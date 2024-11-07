@@ -1,3 +1,18 @@
 question 2
-La commande git init crée un dossier caché .git. 
+La commande git init crée un dossier caché .git. contenat des sous dossier : 
+branches  config  description  HEAD  hooks  info  objects  refs
 
+question 4
+Ce message signifie initialisation d'un dépôt Git viens dêtre fait dans mon dossier, mais que je n'ai pas encore effectué de commit pour enregistrer des modifications dans l'historique de Git. 
+
+question 5
+Mon fichier est maintenant suivi par Git, prêt à être inclus dans le prochain commit.
+
+Question 8
+Mon répertoire de travail est à jour et qu'aucune modification n'a été faite depuis le dernier commit.
+
+git log -p te montre l'historique des commits, avec les détails des modifications apportées dans chaque commit.
+Si tu n'as pas encore de commits, il n'y a rien à afficher.
+Lorsque tu utilises la commande git log -p, cela affiche l'historique des commits, ainsi que les différences (ou diffs) entre chaque commit et le commit précédent.
+
+Cela te permet de voir non seulement les messages de commit, mais aussi les modifications apportées dans chaque commit, sous forme de diffs (les lignes ajoutées ou supprimées).
