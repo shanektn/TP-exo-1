@@ -1,0 +1,65 @@
+Il est impossible de cloner le repertoire demander, ce dernier semble privé
+les questions seront donc traité a l'aide du cours et des connaissances
+
+Exercice 2 - Travailler à plusieurs (TP1/ex2)
+
+Question 2 
+Un nouveau répertoire est créé avec le nom du dépôt, pouvant contenir de ssous dossier.
+
+Question 3
+On peut utiliser la commande cd nom_du_fichier pour se déplacer dans le répertoire. Ensuite, on peut voir pour l'état actuel de ton dépôt local avec git status.
+
+Question 4 
+Pour créer un fichier avec ton nom ou ton login dans le répertoire cloné, on utilise la commande touch
+touch shane_katana.txt
+
+Question 5 
+Pour ajouter un fichier, on utilise la commande
+git add shane_katana.txt
+
+Question 6
+Il devrait y avoir un message d'erreur, un message indiquant que l'on a pas pu push le programme car il fau d'abord commiter avant de push.
+
+git add shane_katana.txt
+git commit -m "Ajout du fichier shane_katana.txt"
+git push
+
+Question 7 8 9 (à faire)
+Mettre à jour votre copie locale avec git pull
+Il existe deux stratégies pour git pull :
+
+    Merge (fusionner) : Cette option fusionne tes modifications avec celles du dépôt distant.
+    Rebase : Cette option réécrit ton historique de commits pour appliquer tes changements après ceux du dépôt distant.
+
+Si plusieurs personnes travaillent sur le même fichier, il dervait y avoir des conflits. On pourrait effectuer plusieurs fois un git pull avant de pouvoir pousser mrd propres changements. 
+
+Question 10
+Si mon voisin et moi modifions le même fichier, cela entraînera un conflit 
+
+Question 11
+git add shane_katana.txt
+git commit -m "Modification de la première ligne"
+Puis publier les changements :
+git push
+
+Question 12
+Git me demandera surement de mettre à jour ma copie locale, avec un git pull, avant de le psuh 
+
+Question 13
+On devrait résoudre ce conflit en choisissant quelle differentes versions conserver.
+Ensuite
+git add shane_katana.txt
+et
+git commit -m "Résolution du conflit dans shane_katana.txt"
+et 
+git push
+
+Question 14
+
+Pour voir l'historique des commits, on utilise :
+
+    git lola affichage plus détaillé et graphique de l'historique des commits.
+    git log pour un affichage plus classique de l'historique des commits.
+    git log --oneline pour voir les commits sous forme compacte 
+
+
